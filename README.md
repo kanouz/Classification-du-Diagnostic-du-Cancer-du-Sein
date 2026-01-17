@@ -1,4 +1,3 @@
-# Classification-du-Diagnostic-du-Cancer-du-Sein
 # 🎗️ Classification du Diagnostic du Cancer du Sein
 
 Ce projet utilise le **Machine Learning** pour classifier les tumeurs mammaires comme étant **Bénignes** ou **Malignes** à partir de caractéristiques médicales.
@@ -9,7 +8,7 @@ L'objectif est de développer un modèle prédictif fiable pour aider au diagnos
 ## 🛠️ Technologies Utilisées
 * **Langage :** Python
 * **Bibliothèques :** Pandas, Scikit-learn, NumPy, Matplotlib/Seaborn
-* **Interface :** Flask ou Streamlit (si tu as un fichier `app.py`)
+* **Interface :** Flask ou Streamlit 
 
 ## 📊 Jeu de Données
 Le modèle est entraîné sur le dataset "Breast Cancer Wisconsin", comprenant des caractéristiques telles que :
