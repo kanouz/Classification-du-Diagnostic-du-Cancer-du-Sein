@@ -26,12 +26,12 @@ L'application dispose d'une interface intuitive permettant une utilisation rapid
     * 🟢 **Bénin** 
     * 🔴 **Malin** 
 
-![Interface de l'application](./images/Exemple_Predection_D_apresAnalyse.png)
+![Interface de l'application](./images/Exemple_Predection_D'apresAnalyse.png)
 
 ### Performance du Modèle : Matrice de Confusion
 La matrice de confusion nous permet d'évaluer la précision du modèle sur 114 cas de test :
 
-![Matrice de Confusion](./images/Matrice_de_confusion.png)
+![Matrice de Confusion](./images/Matrice de Confusion.png)
 
 **Analyse détaillée :**
 * ✅ **71 cas bénins** ont été correctement classés.
