@@ -17,6 +17,28 @@ Le modèle est entraîné sur le dataset "Breast Cancer Wisconsin", comprenant d
 * Le périmètre et l'aire
 * La concavité
 
+ ## 📊 Analyse des Résultats et Interface
+
+### Interface de l'Application
+L'application dispose d'une interface intuitive permettant une utilisation rapide :
+* **Bouton « Prédire »** : Lance instantanément l'analyse via le modèle préchargé.
+* **Retour Visuel** : Un message coloré s'affiche pour indiquer le diagnostic :
+    * 🟢 **Bénin** 
+    * 🔴 **Malin** 
+
+![Interface de l'application](./images/Exemple_Predection_D'apresAnalyse.png)
+
+### Performance du Modèle : Matrice de Confusion
+La matrice de confusion nous permet d'évaluer la précision du modèle sur 114 cas de test :
+
+![Matrice de Confusion](./images/Matrice_de_Confusion.png)
+
+**Analyse détaillée :**
+* ✅ **71 cas bénins** ont été correctement classés.
+* ✅ **39 cas malins** ont été correctement détectés.
+* ❌ **4 cas malins** ont été faussement classés comme bénins (Faux Négatifs). 
+> *Note : Dans un contexte médical, la réduction des faux négatifs est notre priorité absolue pour garantir la sécurité des patients.*
+
 ## 🚀 Comment l'utiliser
 1. Cloner le projet : `git clone https://github.com/kanouz/Classification-du-Diagnostic-du-Cancer-du-Sein.git`
 2. Installer les dépendances : `pip install -r requirements.txt` (si tu en as un)
